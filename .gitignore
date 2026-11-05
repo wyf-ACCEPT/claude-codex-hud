@@ -1,0 +1,14 @@
+# Secrets
+heartbeat.json
+
+# Packages
+custom/build/
+
+# Data
+data/
+stripped/
+transcript-cache/
+
+# Cache
+config.json.bak-*
+.DS_Store

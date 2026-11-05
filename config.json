@@ -1,0 +1,53 @@
+{
+  "display": {
+    "showTools": false,
+    "showAgents": false,
+    "showTodos": true,
+    "showSessionName": true,
+    "showTokenBreakdown": true,
+    "showUsage": true,
+    "showEffortLevel": true,
+    "sevenDayThreshold": 0,
+    "usagePace": true,
+    "showDailyCost": true,
+    "showSpeed": true,
+    "showCompactions": true,
+    "showCacheHitRate": true,
+    "showWeeklyCost": true,
+    "mergeGroups": [
+      [
+        "context",
+        "usage"
+      ],
+      [
+        "project",
+        "cacheHitRate"
+      ]
+    ]
+  },
+  "gitStatus": {
+    "enabled": true,
+    "showDirty": true,
+    "showAheadBehind": true,
+    "showFileStats": false
+  },
+  "elementOrder": [
+    "project",
+    "cacheHitRate",
+    "addedDirs",
+    "context",
+    "usage",
+    "promptCache",
+    "memory",
+    "environment",
+    "tools",
+    "skills",
+    "mcp",
+    "agents",
+    "todos",
+    "sessionTime"
+  ],
+  "colors": {
+    "label": 245
+  }
+}
